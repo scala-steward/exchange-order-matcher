@@ -4,7 +4,6 @@ import scala.collection.immutable.TreeMap
 
 import scalaz.Dequeue
 
-import exchange.domain.model.AssetAmounts._
 import exchange.domain.model.AssetPrices._
 
 /** OrderBook is the storage for buy and sell orders, ordered by price and then by the order of placement.
